@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+
+ 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="shortcut icon" href="/icono.png" type="image/x-icon"> 
+
+    <title>DOM</title> 
+
+</head> 
+
+ 
+
+<body> 
+
+    <form id="form-login" class="form" action=""> 
+
+        <label id="label" for="">Usuario</label> 
+
+        <input id="usuario" type="text"> 
+
+        <label for="">Contraseña</label> 
+
+        <input id="contrasena" type="text"> 
+
+        <div class="buttons"> 
+
+            <button id="btnIniciarSesion" type="button">Iniciar Sesión</button> 
+
+            <button id="btnLogin" type="button">¿No tiene una cuenta?</button> 
+
+        </div> 
+
+    </form> 
+
+ 
+
+    <form id="form-register" class="form" action="" style="display: none;"> 
+
+        <input placeholder="Nombre" id="rnombre" type="text"> 
+
+        <input placeholder="Correo" id="rcorreo" type="text"> 
+
+        <input placeholder="Contraseña" id="rcontrasena" type="text"> 
+
+        <input placeholder="Profesion" id="rprofesion" type="text"> 
+
+        <input placeholder="Usuario" id="rusuario" type="text"> 
+
+        <div> 
+
+            <button id="btnRegistrarUsuario" type="button">Registrar</button> 
+
+            <button type="button" id="btnRegister">¿Ya tiene una cuenta?</button> 
+
+        </div> 
+
+    </form> 
+
+    <script type="module" src="./script.js"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+
+</body> 
+
+ 
+
+</html> 
